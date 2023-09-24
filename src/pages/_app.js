@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Default Title</title>
-        <title>Meta Tags — Preview, Edit and Generate</title>
+        {/* <title>Meta Tags — Preview, Edit and Generate</title> */}
         <meta name="title" content="Meta Tags — Preview, Edit and Generate" />
         <meta
           name="description"
