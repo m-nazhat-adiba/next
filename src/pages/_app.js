@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 
 import { Montserrat, Poppins, Roboto_Condensed } from "next/font/google";
+import Head from "next/head";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -18,6 +19,9 @@ const roboto_c = Roboto_Condensed({
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>Default Title</title>
+      </Head>
       <style jsx global>
         {`
           :root {
